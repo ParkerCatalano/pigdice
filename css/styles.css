@@ -1,0 +1,12 @@
+#player1Score {
+  display: none;
+}
+
+.score {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.score:hover {
+  text-decoration: underline;
+}
