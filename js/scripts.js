@@ -22,9 +22,9 @@ Player.prototype.playerPoints = function(){
   //user interface logic...
   //$("ul#player1Score").append(dieRoll);
   $(document).ready(function() {
-
+  event.preventDefault();
   $("#player-roll").submit(function(event) {
-    event.preventDefault();
+
     $("ul#player1Score").append(dieRoll);
   })
 })

@@ -1,7 +1,9 @@
-#player1Score {
-  display: none;
-}
+.container {
 
+  }
+#player1Score {
+  width: 100px;
+}
 .score {
   cursor: pointer;
   color: #0088cc;
